@@ -5,6 +5,7 @@ $(document).ready(function(){
     var verbInput = $("input#verb").val();
     var adjectiveInput = $("input#adjective").val();
     var nounInput = $("input#noun").val();
+    var nounInput = nounInput.toUpperCase();
     var animal2Input = $("input#animal2").val();
     var adjective2Input = $("input#adjective2").val();
     var noun2Input = $("input#noun2").val();
